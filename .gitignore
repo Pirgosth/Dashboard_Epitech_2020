@@ -1,0 +1,4 @@
+.idea
+.gradle
+build
+src/main/webapp/libs/bootstrap-4.5.3-dist

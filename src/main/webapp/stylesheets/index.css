@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#content{
+    padding: 20px;
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.sidebar-header > p{
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar-subheader{
+    padding-left: 10px;
+}
+
+#sidebar-subheader-title{
+    padding-top: 20px;
+}
+
+#sidebar-subheader-credentials{
+    padding-bottom: 40px;
+}
+
+#sidebar-subheader-username{
+    font-size: 18px;
+}
+
+#sidebar-subheader-username span{
+    color: chartreuse;
+    font-size: 23px;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #3593f2;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #3593f2;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    /*background: #3593f2;*/
+}
+
+.widget-toggle{
+    margin: 10px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+#sidebarCollapse{
+    color: #fff;
+    background-color: #4187CC;
+    border-color: #4187CC;
+    box-shadow: none;
+}
+
+#steam-service{
+    background-color: #171a21;
+}
+
+li{
+    overflow: auto;
+}
+
+#steam-service > ul{
+    background-color: #1d222a;
+}
+
+#youtube-service{
+    background-color: #ff2b02;
+}
+
+#youtube-service > ul{
+    background-color: #e02f0d;
+}
+
+#github-service {
+    /*background-color: #012363;*/
+    background-color: #001d4c;
+}
+
+#github-service > ul{
+    /*background-color: #001d4c;*/
+    background-color: #01173a;
+}
+
+.grid-stack-item-content{
+    background-color: rgba(220, 220, 220, 0.67);
+}
+
+.grid-stack-item-content h3{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.add-widget-button{
+    margin: 0 10px;
+}
+
+.add-widget-button:hover{
+    cursor: pointer;
+    color: #c6c6c6;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}

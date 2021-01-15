@@ -1,0 +1,384 @@
+/*STEAM Style*/
+
+.open-steam-settings {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.grid-stack-item > div.grid-stack-item-content .steam-widget-content {
+    color: white;
+}
+
+.remove-steam-widget {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.open-steam-settings:hover {
+    color: #c6c6c6;
+}
+
+.remove-steam-widget:hover {
+    color: #c6c6c6;
+}
+
+/*STEAM Style*/
+
+/*STEAM_PROFILE Style*/
+
+.grid-stack-item[data-widget-name="STEAM_PROFILE"] > div.grid-stack-item-content {
+    background-color: #1d222a;
+}
+
+.grid-stack-item[data-widget-name="STEAM_PROFILE"] h4 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.steam-profile-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.steam-profile-widget-real-name{
+    vertical-align: middle;
+}
+
+.steam-profile-widget-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.steam-profile-widget-content > a > img{
+    width: 150px;
+    height: 150px;
+}
+
+.steam-profile-widget-content > img > h4{
+    text-align: center;
+}
+
+.steam-profile-widget-content > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+/*STEAM_PROFILE Style*/
+
+/*STEAM_HOURS Style*/
+
+.grid-stack-item[data-widget-name="STEAM_HOURS"] > div.grid-stack-item-content {
+    background-color: #1d222a;
+}
+
+.grid-stack-item[data-widget-name="STEAM_HOURS"] h4 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.steam-hours-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.steam-hours-content {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+/*STEAM_HOURS Style*/
+
+/*STEAM_VALUE Style*/
+
+.grid-stack-item[data-widget-name="STEAM_VALUE"] > div.grid-stack-item-content {
+    background-color: #1d222a;
+}
+
+.grid-stack-item[data-widget-name="STEAM_VALUE"] h4 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.steam-value-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.steam-value-content {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+/*STEAM_VALUE Style*/
+
+/*YOUTUBE Style*/
+
+.open-youtube-settings {
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.remove-youtube-widget {
+    z-index: 3;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.open-youtube-settings:hover {
+    color: #c6c6c6;
+}
+
+.remove-youtube-widget:hover {
+    color: #c6c6c6;
+}
+
+/*YOUTUBE Style*/
+
+/*YOUTUBE_LATEST_VIDEO Style*/
+
+.youtube-latest-logo{
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.grid-stack-item[data-widget-name="YOUTUBE_LATEST_VIDEO"] > .grid-stack-item-content{
+    background-color: #e02f0d;
+    color: white;
+}
+
+.youtube-latest-widget-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    width: 95%;
+    height: 90%;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.youtube-latest-widget-content > iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*YOUTUBE_LATEST_VIDEO Style*/
+
+/*YOUTUBE_CHANNEL_INFO Style*/
+
+.grid-stack-item[data-widget-name="YOUTUBE_CHANNEL_STATS"] > .grid-stack-item-content{
+    background-color: #e02f0d;
+    color: white;
+    overflow-x: auto;
+}
+
+.youtube-channel-stats-widget-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.youtube-channel-stats-widget-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.youtube-channel-stats-widget-title{
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube-channel-stats-widget-title > img{
+    width: 100px;
+    height: 100px;
+}
+
+.youtube-channel-stats-widget-body{
+    font-size: 25px;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.youtube-channel-stats-widget-body svg{
+    margin-right: 15px;
+}
+
+.youtube-channel-stats-widget-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1%;
+    font-size: 30px;
+}
+
+/*YOUTUBE_CHANNEL_INFO Style*/
+
+/*GITHUB Style*/
+
+.open-github-settings {
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.remove-github-widget {
+    z-index: 3;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.open-github-settings:hover {
+    color: #c6c6c6;
+}
+
+.remove-github-widget:hover {
+    color: #c6c6c6;
+}
+
+/*GITHUB Style*/
+
+/*GITHUB_REPOS Style*/
+
+.github-repos-logo{
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.grid-stack-item[data-widget-name="GITHUB_REPOS"] > .grid-stack-item-content{
+    background-color: #01173a;
+    color: white;
+    overflow-x: auto;
+}
+
+.github-repos-widget-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.github-repos-widget-content > h4{
+    margin: 25px 0;
+}
+
+.github-repos-widget-content li{
+    background-color: inherit;
+    border-color: #ffffffdd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.github-repos-widget-repo-description{
+    font-style: italic;
+}
+
+.github-repos-widget-repo-private{
+    margin-left: 13px;
+    color: darkorange;
+}
+
+.github-repos-widget-content ul{
+    width: 95%;
+}
+
+.github-repos-widget-content input[readonly]{
+    background-color: inherit;
+    color: #ffffffdd;
+}
+
+.github-repos-widget-content p{
+    margin: 0;
+}
+
+/*GITHUB_REPOS Style*/
+
+/*GITHUB_FOLLOWERS Style*/
+
+.github-followers-logo{
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.grid-stack-item[data-widget-name="GITHUB_FOLLOWERS"] > .grid-stack-item-content{
+    background-color: #01173a;
+    color: white;
+    overflow-x: auto;
+}
+
+.github-followers-widget-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.github-followers-widget-content > h4{
+    margin: 25px 0;
+}
+
+.github-followers-widget-followers-list{
+    width: 90%;
+}
+
+.github-followers-widget-content li{
+    background-color: inherit;
+    border-color: #ffffffdd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    padding: 35px 0;
+}
+
+.github-followers-widget-follower-name{
+    margin-left: 25px;
+}
+
+.github-followers-widget-follower-img-url{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*GITHUB_FOLLOWERS Style*/

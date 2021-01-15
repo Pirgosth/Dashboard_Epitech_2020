@@ -1,0 +1,95 @@
+{
+  "client": {
+    "host": "127.0.0.1"
+  },
+  "server": {
+    "current_time": 1531680780,
+    "services": [
+      {
+        "name": "steam",
+        "widgets": [
+          {
+            "name": "profile",
+            "description": "Display the pseudo/real name + n° of friends + Steam level of the user given",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "library_value",
+            "description": "Display the total worth of a user games library",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "time_played",
+            "description": "Display the total amount of hours played on a user steam games",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "youtube",
+        "widgets": [
+          {
+            "name": "channel_stats",
+            "description": "Display statistics on a Youtube channel, such as total views, subscribers and videos uploaded",
+            "params": [
+              {
+                "name": "channelParameter",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "latest_video",
+            "description": "Generates a viewable frame containing the latest video uploaded on the Youtube channel",
+            "params": [
+              {
+                "name": "channelParameter",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "github",
+        "widgets": [
+          {
+            "name": "list_repositories",
+            "description": "List all public (and private ones if the user is connected with Github) of the user",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          },
+          {
+            "name": "followers",
+            "description": "Displaying the list of the user followers",
+            "params": [
+              {
+                "name": "username",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
